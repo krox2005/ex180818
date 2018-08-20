@@ -12,5 +12,10 @@ Package   : ru.example.krox
 public class ListConstValue {
 
     public static String dbName = "/home/krox/Developer/Database/Journals.db";
+    public static String url = "jdbc:sqlite:" + ListConstValue.dbName;
+    public static String[] ListJournal = {"Игромания","CHIP","Windows iT PRO","Linux Format","Мир фантастики",
+                                          "IT-Expert","Дилетант","Хакер"};
+    public static String[] ListJournal2 = {"CHIP","Windows iT PRO","Linux Format","IT-Expert","Дилетант","Хакер"};
+
 
 }
